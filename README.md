@@ -8,3 +8,5 @@ Mi camino a Senior Full Stack Developer.
 ## Progreso
 - [x] Configurar entorno (VS Code, Git, Terminal).
 - [ ] Completar Fundamentos de JavaScript (Semana 1-4).
+
+Lunes 16: Día complicado en la uni. Reprogramando sesión para el Sábado. Prioridad , Descanso estratégico
