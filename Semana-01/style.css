@@ -1,0 +1,59 @@
+/* 1. Reset básico (quita los márgenes por defecto del navegador) */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif; /* Tipografía limpia */
+    background-color: #1a1a1a; /* Fondo casi negro (Dark Mode) */
+    color: #ffffff; /* Texto blanco */
+    text-align: center; /* Todo centrado */
+}
+
+/* 2. Estilo para el Título Principal */
+h1 {
+    color: #ff4757; /* Rojo intenso estilo Gym */
+    text-transform: uppercase; /* Todo en mayúsculas */
+    margin-top: 50px;
+    font-size: 3rem; /* Texto muy grande */
+}
+
+/* 3. Estilo para los subtítulos */
+h2 {
+    color: #ced6e0; /* Gris claro */
+    border-bottom: 2px solid #ff4757; /* Línea roja debajo */
+    display: inline-block; /* Para que la línea sea del ancho del texto */
+    padding-bottom: 10px;
+}
+
+/* 4. Estilo para la lista */
+ul {
+    list-style-type: none; /* Quita los puntos feos por defecto */
+    padding: 0;
+}
+
+li {
+    background-color: #2f3542; /* Fondo gris para cada item */
+    margin: 10px auto; /* Separación entre items */
+    padding: 15px;
+    width: 300px; /* Ancho fijo */
+    border-radius: 8px; /* Bordes redondeados */
+    font-weight: bold;
+}
+
+/* 5. El Botón de Llamada a la Acción (CTA) */
+button {
+    background-color: #ff4757; /* Mismo rojo que el título */
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 50px; /* Botón redondo */
+    cursor: pointer; /* Manita al pasar el mouse */
+    margin-top: 30px;
+    transition: transform 0.2s; /* Animación suave */
+}
+
+/* Efecto al pasar el mouse por encima del botón */
+button:hover {
+    transform: scale(1.1); /* Crece un poquito */
+    background-color: #ff6b81; /* Se pone más claro */
+}
