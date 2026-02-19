@@ -57,3 +57,26 @@ button:hover {
     transform: scale(1.1); /* Crece un poquito */
     background-color: #ff6b81; /* Se pone más claro */
 }
+
+/* Efecto Hover para la lista */
+li:hover {
+    background-color: #ff4757; /* Se pone rojo */
+    color: white;
+    cursor: pointer;
+    
+    /* JUGANDO CON EL BOX MODEL */
+    padding-left: 30px; /* Aumentamos el relleno izquierdo */
+    border-left: 10px solid white; /* Agregamos un borde grueso blanco */
+    transition: all 0.3s ease; /* Animación suave */
+}
+
+/* Estilos para la Imagen Principal */
+.hero-image {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    max-width: 600px; /* Pero nunca crezcas más de 600px */
+    height: auto; /* Mantén la proporción (no te estires rara) */
+    border-radius: 15px; /* Bordes redondeados modernos */
+    margin-top: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5); /* Sombra elegante */
+}
